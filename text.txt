@@ -1,0 +1,5 @@
+{Модуль /usr/share/oscript/lib/opm/src/core/Классы/МенеджерУстановкиПакетов.os / Ошибка в строке: 136 / {Модуль /usr/share/oscript/lib/opm/src/core/Классы/УстановкаПакета.os / Ошибка в строке: 108 / Внешнее исключение (System.UnauthorizedAccessException): Access to the path '/usr/share/oscript/lib/cmdline' is denied.}}
+
+oscript cmdline.os -action "акция" ./err.txt 
+
+oscript cmdline.os -param "par2" -action "акция"
