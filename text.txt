@@ -3,3 +3,7 @@
 oscript cmdline.os -action "акция" ./err.txt 
 
 oscript cmdline.os -param "par2" -action "акция"
+
+git remote add origin https://github.com/legavaz/demo_oscrtipt.git
+git branch -M master
+git push -u origin master
