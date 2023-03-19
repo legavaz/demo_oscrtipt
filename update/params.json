@@ -7,10 +7,10 @@
     "-lockuccode": "09090",
     "-sleep": 10,
 
-    "-storage_0-name": "main",
-    "-storage_0-link": "tcp:##localhost#nota",
-    "-storage_0-user": "Администратор",
-    "-storage_0-pwd": "123",
+    "-storage-name": "main",
+    "-storage-link": "tcp:##localhost#nota",
+    "-storage-user": "Администратор",
+    "-storage-pwd": "123",
 
     "Extension":[
         {
