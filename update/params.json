@@ -11,11 +11,12 @@
     "-storage_0-user": "Администратор",
     "-storage_0-pwd": "123",
 
-    "-storage_1-name": "ИнструментыРазработчикаTormozit",
-    "-storage_1-link": "tcp:##localhost#nota_ext_ir",
-    "-storage_1-user": "Администратор",
-    "-storage_1-pwd": "123",
-
-    "key_end": "key_end"
-
+    "Extension":[
+        {
+            "-storage-name": "ИнструментыРазработчикаTormozit",
+            "-storage-link": "tcp:##localhost#nota_ext_ir",
+            "-storage-user": "Администратор",
+            "-storage-pwd": "123"
+        }
+    ]
 }
