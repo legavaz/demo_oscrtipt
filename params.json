@@ -1,6 +1,7 @@
 ﻿{
     "-db": "nota",
     "-ibconnection": "/S localhost:1541#nota",
+    "-v8version" : "8.3.21.1644",
     "-db-user": "Данилин",
     "-db-pwd": "123",
     "-rac": "C:#Program Files#1cv8#8.3.20.1710#bin#rac.exe",
