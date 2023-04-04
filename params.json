@@ -1,22 +1,25 @@
 ﻿{
     "-db": "nota",
-    "-ibconnection": "/S localhost:1541#nota",
-    "-v8version" : "8.3.21.1644",
+    "-ibconnection": "#S localhost:1541#nota",
+    "-v8version" : "8.3.21.1644",    
     "-db-user": "Данилин",
     "-db-pwd": "123",
     "-rac": "C:#Program Files#1cv8#8.3.20.1710#bin#rac.exe",
     "-lockuccode": "09090",
+    "-lockmessage": "Работа будет прекращена для обновления конфигурации",
+    "-lockstartat": 300,    
+    "-scheduledjobs":false,
     "-sleep": 10,
 
     "-storage-name": "main",
-    "-storage-link": "tcp:##localhost#nota",
+    "-storage-link": "tcp:#localhost#nota",
     "-storage-user": "Администратор",
     "-storage-pwd": "123",
 
     "Extension":[
         {
             "-storage-name": "ИнструментыРазработчикаTormozit",
-            "-storage-link": "tcp:##localhost#nota_ext_ir",
+            "-storage-link": "tcp:#localhost#nota_ext_ir",
             "-storage-user": "Администратор",
             "-storage-pwd": "123"
         }
